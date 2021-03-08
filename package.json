@@ -1,0 +1,24 @@
+{
+  "name": "s03e09-atelier-solo-oblog-FolamourKlauss",
+  "version": "1.0.0",
+  "description": "![Aperçu](integration/images/apercu.png \"Aperçu\")",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/O-clock-Nemo/s03e09-atelier-solo-oblog-FolamourKlauss.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/O-clock-Nemo/s03e09-atelier-solo-oblog-FolamourKlauss/issues"
+  },
+  "homepage": "https://github.com/O-clock-Nemo/s03e09-atelier-solo-oblog-FolamourKlauss#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  }
+}

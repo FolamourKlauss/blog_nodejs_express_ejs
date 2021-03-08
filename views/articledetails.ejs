@@ -1,0 +1,27 @@
+<%- include('partials/header.ejs') %>
+<div class="main-layout pure-u-1 pure-u-md-3-4">
+    <main class="main-content pure-g">
+                <article class="post post--full pure-u-1">
+                    <div class="post-content post--category-histoire">
+                        <header class="post-header">
+                            <a class="post-back" href="/">&lt; Retour à l'accueil</a>
+                            <h2 class="post-title"><%= locals.theRightArticle.title %></h2>
+                            <p class="post-meta">
+                                Par <a class="post-author" href="#"><%= locals.theRightArticle.author %></a> dans la catégorie <a
+                                    class="post-category" href="#"><%= locals.theRightArticle.category %></a>
+                            </p>
+                        </header>
+                        <figure>
+                            <img src="<%= locals.theRightArticle.img%>" alt="<%= locals.theRightArticle.img_alt %>">
+                            <figcaption class="post-image-caption"><%= locals.theRightArticle.sub_title %></figcaption>
+                        </figure>
+                        <main class="post-description">
+                            <div class="post-text">
+                                <p><%= locals.theRightArticle.text %></p>
+                            </div>
+                        </main>
+                    </div>
+                </article>
+    </main>
+</div>
+<%- include('partials/footer.ejs') %>
